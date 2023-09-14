@@ -8,18 +8,18 @@ def Kilogramos_a_Toneladas(kg):
     t = kg / 1000
     return t
 
-    def Gramos_a_Kilogramos(g):
+def Gramos_a_Kilogramos(g):
     kg = g / 1000
     return kg
 
-    def Gramos_a_Toneladas(g):
+def Gramos_a_Toneladas(g):
     t = g / 1000000
     return t
 
-    def Toneladas_a_Kilogramos(t):
+def Toneladas_a_Kilogramos(t):
     kg = t * 1000
     return kg
 
-    def Toneladas_a_Gramos(t):
+def Toneladas_a_Gramos(t):
     g = t * 1000000
     return g
